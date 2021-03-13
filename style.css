@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "digital";
+  src: url("media/alarm-clock.eot");
+  src: url("media/alarm-clock.woff") format("woff"),
+    url("media/alarm-clock.woff2") format("opentype"),
+    url("media/alarm-clock.eot") format("svg");
+}
+
+* {
+  font-family: 'Squada One', cursive;
+}
+
+html {
+  background: #1a1a1a;
+}
+
+.datesContainer, .clockContainer {
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.content {
+  padding: 50px 0;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #fff;
+}
+
+.content span {
+  display: block;
+  font-family: 'digital', cursive;
+}
+
+.timestamp {
+  width: 13vw;
+  height: 16vw;
+  border: 2px solid #fff;
+  margin: 10px 20px;
+  padding: 10px;
+}
+
+.timestamp h1 {
+  font-family: 'digital';
+  font-size: 8vw;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.timestamp p{
+  width: 80%;
+  text-align: right;
+}
+h6{
+  width: 100%;
+  font-family: 'digital', cursive;
+}
